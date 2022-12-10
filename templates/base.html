@@ -1,0 +1,16 @@
+<html>
+
+<head>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+  <title>{{ title }} - Books</title>
+</head>
+
+<body>
+  <ul>
+    <li clas="nav-link"><a href="/books">Home</a></li>
+  </ul>
+  <hr>
+  {% block content %}{% endblock %}
+</body>
+
+</html>

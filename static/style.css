@@ -1,0 +1,32 @@
+
+body {
+    background-color: lightgray;
+}
+
+h1 {
+    text-align: center;
+}
+
+#form-inline {
+    text-align: center;
+    min-height: 50px;
+}
+
+.book-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding-left: 75px;
+}
+
+.book {
+    background-color: lightblue;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    border-style: double;
+    border-color: black;
+    min-height: 25%;
+    min-width: 25%;
+    max-width: 100%;
+}
